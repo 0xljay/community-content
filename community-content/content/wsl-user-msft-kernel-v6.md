@@ -85,7 +85,7 @@ The first step will be to build the Microsoft Linux kernel from the version 6.1.
 7. Copy the kernel image to the Windows file system:
 
     ```bash
-    cp arch/x86/boot/bzImage /mnt/c/
+    cp arch/x86_64/boot/bzImage /mnt/c/
     ```
 
 8. Exit the WSL terminal window
